@@ -15,11 +15,15 @@ public class DatosGenerales {
 		numero1=11;
 		numero2=33;
 		resultado=numero1+numero2;
-		System.out.print("El valor es: "+resultado);
+		System.out.println("El valor es: "+resultado);
 	}
 	
 	/** Son datos que np pueden ser modificados durante la ejecusion de un programa. */
 	public static void constantes() {
+		/**Este dato no puede ser modificado */
+		final double pi=3.1416;
+		
+		System.out.println("El valor de PI es: "+pi);
 		
 	}
 
